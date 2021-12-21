@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopMenuComponent } from './menus/top_menu/top-menu/top-menu.component';
 import { SidebarComponent } from './menus/sidebar/sidebar/sidebar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AngularMaterialModule } from './icons/angular-material.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SidebarComponent } from './menus/sidebar/sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
