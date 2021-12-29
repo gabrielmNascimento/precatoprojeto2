@@ -1,0 +1,14 @@
+#container-top
+{
+    height: 75px;
+}
+
+#avatar-icon
+{
+    cursor: pointer;
+}
+
+#notification-icon
+{
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+#side-container
+{
+    width: 175px;
+    margin-top: -75px;
+}
+
+span
+{
+    font-family: 'Lato', sans-serif;
+}
+
+ul
+{
+    list-style: none;
+}
+
+li
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
