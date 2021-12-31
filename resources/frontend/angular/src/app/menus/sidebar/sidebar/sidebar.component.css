@@ -14,43 +14,40 @@ span
     font-family: 'Lato', sans-serif;
 }
 
-ul
+#container-dashboards,
+#container-solicitar,
+#container-cobrar
 {
-    list-style: none;
-    padding-left: 0px;
+    margin: 20px 0px 3px 0px;
 }
 
-li
+#dashboards
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+    padding: 3px 0px 3px 10px;
+    font-weight: 500;
+}
+
+#solicitar
 {
     font-family: 'Roboto', sans-serif;
     color: white;
     cursor: pointer;
     margin: 20px 0px 3px 0px;
-    font-size: 18px;
-}
-
-#dashboards
-{
-    background: url(../../../../assets/dashboard2.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
     padding: 3px 0px 3px 10px;
-    /* reset styles (optional): */
-    list-style: none;
-}
-
-#solicitar
-{
-    background: url(../../../../assets/request2.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
-    padding: 3px 0px 3px 10px;
-    /* reset styles (optional): */
-    list-style: none;
+    font-weight: 500;
 }
 
 #cobrar
 {
-    background: url(../../../../assets/charge2.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0px 3px 0px;
     padding: 3px 0px 3px 10px;
-    /* reset styles (optional): */
-    list-style: none;
+    font-weight: 500;
 }
 
 
