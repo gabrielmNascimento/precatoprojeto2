@@ -1,7 +1,12 @@
 #side-container
 {
-    width: 175px;
+    width: 210px;
     margin-top: -75px;
+}
+
+#logo
+{
+    cursor: pointer;
 }
 
 span
@@ -12,11 +17,41 @@ span
 ul
 {
     list-style: none;
+    padding-left: 0px;
 }
 
 li
 {
     font-family: 'Roboto', sans-serif;
     color: white;
+    cursor: pointer;
+    margin: 20px 0px 3px 0px;
+    font-size: 18px;
 }
+
+#dashboards
+{
+    background: url(../../../../assets/dashboard2.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
+    padding: 3px 0px 3px 10px;
+    /* reset styles (optional): */
+    list-style: none;
+}
+
+#solicitar
+{
+    background: url(../../../../assets/request2.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
+    padding: 3px 0px 3px 10px;
+    /* reset styles (optional): */
+    list-style: none;
+}
+
+#cobrar
+{
+    background: url(../../../../assets/charge2.png) no-repeat left top; /* <-- change `left` & `top` too for extra control */
+    padding: 3px 0px 3px 10px;
+    /* reset styles (optional): */
+    list-style: none;
+}
+
+
 
