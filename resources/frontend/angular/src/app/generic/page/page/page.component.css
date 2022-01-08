@@ -1,4 +1,9 @@
 #page-container
 {
+    position: absolute;
+    display: inline-block;
     background-color: rgb(206, 206, 206);
+    min-height: 530px;
+    min-width: 1140px;
+    bottom: -1px;
 }
