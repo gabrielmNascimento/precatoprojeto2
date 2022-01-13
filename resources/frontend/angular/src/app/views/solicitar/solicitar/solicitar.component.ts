@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolicitarComponent implements OnInit {
 
+  titlePage = "Solicitar Pagamento"
+
   constructor() { }
 
   ngOnInit(): void {

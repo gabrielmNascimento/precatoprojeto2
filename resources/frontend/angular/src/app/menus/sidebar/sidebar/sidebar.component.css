@@ -19,14 +19,21 @@ span
 #container-solicitar,
 #container-cobrar
 {
+    cursor: pointer;
     margin: 20px 0px 3px 0px;
+}
+
+#container-dashboards:hover,
+#container-solicitar:hover,
+#container-cobrar:hover
+{
+    background-color: rgb(49, 201, 247);
 }
 
 #dashboards
 {
     font-family: 'Roboto', sans-serif;
     color: white;
-    cursor: pointer;
     padding: 3px 0px 3px 10px;
     font-weight: 500;
 }

@@ -6,6 +6,7 @@ import { SolicitarComponent } from './views/solicitar/solicitar/solicitar.compon
 
 const routes: Routes = [
   {path: '', component: DashboardsComponent},
+  {path: 'dashboards', component: DashboardsComponent},
   {path: 'solicitar', component: SolicitarComponent},
   {path: 'cobrar', component: CobrarComponent}
 ];
