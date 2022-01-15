@@ -17,7 +17,8 @@ span
 
 #container-dashboards,
 #container-solicitar,
-#container-cobrar
+#container-cobrar,
+#container-solicitacoes
 {
     cursor: pointer;
     margin: 20px 0px 3px 0px;
@@ -25,7 +26,8 @@ span
 
 #container-dashboards:hover,
 #container-solicitar:hover,
-#container-cobrar:hover
+#container-cobrar:hover,
+#container-solicitacoes:hover
 {
     background-color: rgb(49, 201, 247);
 }

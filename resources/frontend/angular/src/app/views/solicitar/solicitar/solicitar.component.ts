@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolicitarComponent implements OnInit {
 
+  //Page Title:
   titlePage = "Solicitar Pagamento"
+
+  //Form Variables:
+  valorInicial = ''
+  valorFinal = ''
+  data = ''
 
   constructor() { }
 

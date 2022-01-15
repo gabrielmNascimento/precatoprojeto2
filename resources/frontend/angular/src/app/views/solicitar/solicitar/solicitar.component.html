@@ -1,5 +1,13 @@
 <page [title]="titlePage">
-    <div id="form-container">
-        
+    <div id="form-container" class="bg-white">
+
+        <label class="form-label" for="">Valor Inicial:</label>
+        <input id="inicialInput" class="form-control mb-3" type="number" [(ngModel)]="valorInicial">
+
+        <label class="form-label" for="">Valor Final:</label>
+        <input id="finalInput" class="form-control mb-3" type="number" [(ngModel)]="valorFinal">
+
+        <label class="form-label" for="">Data:</label>
+        <input id="dataInput" class="form-control mb-3" type="date" [(ngModel)]="data">
     </div>
 </page>

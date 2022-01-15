@@ -11,6 +11,7 @@ import { PageComponent } from './generic/page/page/page.component';
 import { CobrarComponent } from './views/cobrar/cobrar/cobrar.component';
 import { DashboardsComponent } from './views/dashboards/dashboards/dashboards.component';
 import { SolicitarComponent } from './views/solicitar/solicitar/solicitar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SolicitarComponent } from './views/solicitar/solicitar/solicitar.compon
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

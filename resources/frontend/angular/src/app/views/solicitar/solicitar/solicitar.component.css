@@ -1,0 +1,12 @@
+#form-container
+{
+    width: 250px;
+    height: 275px;
+}
+
+#inicialInput,
+#finalInput,
+#dataInput
+{
+    width: 75%;
+}
