@@ -4,9 +4,14 @@
     height: 300px;
 }
 
-#inicialInput,
-#finalInput,
-#dataInput
+.form-control
 {
     width: 75%;
+    margin-left: 25.25px;
 }
+
+.form-label
+{
+    margin-left: 25.25px;
+}
+
