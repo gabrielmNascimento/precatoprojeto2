@@ -12,6 +12,7 @@ import { CobrarComponent } from './views/cobrar/cobrar/cobrar.component';
 import { DashboardsComponent } from './views/dashboards/dashboards/dashboards.component';
 import { SolicitarComponent } from './views/solicitar/solicitar/solicitar.component';
 import { FormsModule } from '@angular/forms';
+import { GraphicCardComponent } from './pieces/graphic-card/graphic-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     PageComponent,
     CobrarComponent,
     DashboardsComponent,
-    SolicitarComponent
+    SolicitarComponent,
+    GraphicCardComponent
   ],
   imports: [
     BrowserModule,
