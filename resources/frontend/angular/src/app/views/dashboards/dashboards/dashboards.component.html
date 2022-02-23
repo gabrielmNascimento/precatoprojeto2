@@ -1,4 +1,22 @@
 <page [title]="titlePage">
-    <graphic-card></graphic-card>
+    <div class="mt-4 text-center">
+        <graphic-card [title]="titleDashboard1">
+
+            <ngx-charts-bar-vertical 
+                [view]="[800,300]"
+                [results]="saleData"
+                [xAxisLabel]="'Products'"
+                [legendTitle]="'Product Sale Chart'"
+                [yAxisLabel]="'Sale'"
+                [legend]="true"
+                [showXAxisLabel]="true"
+                [showYAxisLabel]="true"
+                [xAxis]="true"
+                [yAxis]="true"
+                [gradient]="true">
+            </ngx-charts-bar-vertical>
+
+        </graphic-card>
+    </div>
 </page>
 
