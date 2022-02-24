@@ -14,6 +14,7 @@ import { DashboardsComponent } from './views/dashboards/dashboards/dashboards.co
 import { SolicitarComponent } from './views/solicitar/solicitar/solicitar.component';
 import { FormsModule } from '@angular/forms';
 import { GraphicCardComponent } from './pieces/graphic-card/graphic-card.component';
+import { SolicitacoesComponent } from './views/solicitacoes/solicitacoes.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GraphicCardComponent } from './pieces/graphic-card/graphic-card.compone
     CobrarComponent,
     DashboardsComponent,
     SolicitarComponent,
-    GraphicCardComponent
+    GraphicCardComponent,
+    SolicitacoesComponent
   ],
   imports: [
     BrowserModule,
