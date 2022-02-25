@@ -40,17 +40,9 @@ span
     font-weight: 500;
 }
 
-#solicitar
-{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    cursor: pointer;
-    margin: 20px 0px 3px 0px;
-    padding: 3px 0px 3px 10px;
-    font-weight: 500;
-}
-
-#cobrar
+#solicitar,
+#cobrar,
+#solicitacoes
 {
     font-family: 'Roboto', sans-serif;
     color: white;

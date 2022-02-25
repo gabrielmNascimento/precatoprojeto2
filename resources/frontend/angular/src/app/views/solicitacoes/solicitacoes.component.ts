@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolicitacoesComponent implements OnInit {
 
+  //Page Title:
+  titlePage = "Listagem de Solicitações"
+
   constructor() { }
 
   ngOnInit(): void {
