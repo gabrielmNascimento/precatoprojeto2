@@ -1,3 +1,17 @@
-<page>
-    <p>cobrar works!</p>
+<page [title]="titlePage">
+
+    <div class="form-center mt-5">
+        <div class="d-inline-block form-container">
+            <label class="form-label mt-2" for="destinatarioInput">Destinatário:</label>
+                <select class="form-control mb-3 text-center" disabled id="destinatarioInput">
+                    <!-- TO DO -->
+                </select>
+
+            <label class="form-label ms-38" for="mensagem">Mensagem de Cobrança:</label>
+            <textarea id="mensagem" class="form-control mb-3" [(ngModel)]="mensagem"></textarea>
+
+            <button type="submit" class="btn btn-primary mt-3">Enviar Cobrança</button>
+        </div>
+    </div>
+    
 </page>
