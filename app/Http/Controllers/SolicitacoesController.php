@@ -8,6 +8,12 @@ use App\Http\Requests\UpdateSolicitacoesRequest;
 
 class SolicitacoesController extends Controller
 {
+
+    public function dashboard()
+    {
+        return Solicitacoes::all();
+    }
+
     /**
      * Display a listing of the resource.
      *

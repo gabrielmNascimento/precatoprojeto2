@@ -22,4 +22,11 @@ class Solicitacoes extends Model
      * @var string
      */
     protected $primaryKey = 'remessa_id';
+
+    /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
 }
